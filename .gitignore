@@ -33,3 +33,16 @@ config.status
 # 'make distcheck' intermediates
 *.tar.gz
 
+# Microsoft cruft
+*.depend
+*.layout
+*.res
+*.user
+build/msvc2010/bin/
+build/msvc2010/obj/
+build/msvc2010/ipch/
+
+*.suo
+*.sdf
+*.opensdf
+
