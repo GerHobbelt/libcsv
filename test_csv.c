@@ -83,7 +83,7 @@ cb2 (int c, void *t)
 }
 
 void
-test_parser (char *test_name, unsigned char options, void *input, size_t len, struct event expected[],
+test_parser (char *test_name, unsigned char options, char *input, size_t len, struct event expected[],
              char delimiter, char quote, int (*space_func)(unsigned char), int (*term_func)(unsigned char))
 {
   int result = 0;
