@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="misc">
+      <UniqueIdentifier>{7e0eb1d8-79bf-4848-ad06-0af04e7c54fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3b3b51cc-0dd1-4641-a6e0-e2e39d5d4bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9dc71b32-a7ef-44b1-80f0-43204e1af0ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libcsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\csv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\autogen.sh">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\ChangeLog">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\configure.ac">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\csv.3">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\FAQ">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\INSTALL">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\Makefile.am">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\NEWS">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="..\..\README">
+      <Filter>misc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
